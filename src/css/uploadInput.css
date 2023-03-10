@@ -1,0 +1,31 @@
+input[type='file']::file-selector-button{
+    position: relative;
+    width: 83px;
+    height: 54px;
+    border-color: transparent;
+    color: transparent;
+    background-color: transparent;
+    margin-left:16px;
+}
+
+input[type='file']{
+    font-size: 16px;
+    color: #7E7E7E;
+    width: 380px;
+    height: 54px;
+    border: 1px solid #D0CFCF ;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+.upload_button{
+    position: absolute;
+    border: 1px solid black;
+    width: 83px;
+    height: 54px;
+    border-radius: 4px 0px 0px 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

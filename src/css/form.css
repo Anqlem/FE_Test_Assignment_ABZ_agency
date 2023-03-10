@@ -1,0 +1,21 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.radioBtns{
+    display: flex;
+    flex-direction: column;
+    column-gap: 12px;
+    gap: 7px;
+}

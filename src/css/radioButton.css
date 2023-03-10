@@ -1,0 +1,21 @@
+input[type='radio']{
+    border:5px solid white;
+    box-shadow:0 0 0 1px #D0CFCF;
+    appearance:none;
+    border-radius:50%;
+    width:20px;
+    height:20px;
+    background-color:#fff;
+    transition:all ease-in 0.2s;
+}
+
+input[type='radio']:checked{
+    background-color: #00BDD3;
+    box-shadow:0 0 0 1px #00BDD3;
+}
+
+.radioBtn{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}

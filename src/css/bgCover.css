@@ -1,0 +1,25 @@
+.bg-cover{
+    width: 1170px;
+    height: 650px;
+    background-size: cover;
+    margin: auto;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/bg.jpeg');
+
+    padding: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.bg-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+
+    width: 380px;
+    height: 257px;
+
+    text-align: center;
+    color: #FFFFFF;
+}

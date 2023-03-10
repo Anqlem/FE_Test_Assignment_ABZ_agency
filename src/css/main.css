@@ -1,0 +1,21 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+body{
+    background-color: #F8F8F8;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 26px
+}

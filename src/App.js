@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./css/main.css";
+import "./css/card.css";
+import "./css/form.css";
+import "./css/getForm.css";
+import "./css/input.css";
+import "./css/header.css";
+import "./css/button.css";
+import "./css/bgCover.css";
+import "./css/radioButton.css";
+import "./css/successForm.css";
+import "./css/uploadInput.css";
+import React from "react";
+import Main from "./page/main";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Main />;
 }
 
 export default App;

@@ -1,0 +1,25 @@
+.card{
+    padding: 20px;
+    width: 282px;
+    height: 254px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.name{
+    padding-top: 20px;
+    align-self: stretch;
+}
+
+.desc{
+    padding-top: 20px;
+    align-self: stretch;
+}

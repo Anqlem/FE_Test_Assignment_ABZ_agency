@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    padding: 0 375px 0 375px;
+    height: 60px;
+    background-color: #ffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header button{
+    margin-left: 10px;
+}
