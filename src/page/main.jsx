@@ -16,8 +16,6 @@ function Main() {
   const [postSuccess, setPostSuccess] = useState(Boolean);
   const [isNextPage, setIsNextPage] = useState(true);
 
-  console.log(postSuccess);
-
   const [name, setName] = useState({ isValid: false });
   const [email, setEmail] = useState({ isValid: false });
   const [phone, setPhone] = useState({ isValid: false });
